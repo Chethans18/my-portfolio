@@ -1,0 +1,36 @@
+/* Header.css */
+
+/* Default styles for the header */
+.header {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #000; /* Dark background */
+  color: #fff; /* Light text */
+}
+
+/* Light mode styles */
+.light-mode {
+  background-color: #fff; /* Light background */
+  color: #000; /* Dark text */
+}
+
+/* Customize button styles based on modes */
+.btn {
+  transition: background-color 0.3s ease;
+}
+
+.dark-mode .btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.light-mode .btn-outline-light {
+  color: #000;
+  border-color: #000;
+}
+
+/* Additional design styles for the dark and light modes as needed */

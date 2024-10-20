@@ -1,0 +1,91 @@
+/* Contact.css */
+
+/* General styles for both modes */
+.contact-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: auto;
+    color: var(--text-color);
+  }
+  
+  .contact-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-hr {
+    border: none;
+    height: 3px;
+    background-color: var(--hr-color);
+    margin: 20px 0;
+  }
+  
+  .contact-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact-form .form-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+    background-color: var(--input-bg-color);
+    color: var(--input-text-color);
+  }
+  
+  .contact-form button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: #4caf50;
+    margin-top: 15px;
+  }
+  
+  /* Light Mode Variables */
+  .light-mode {
+    --text-color: #000;
+    --hr-color: #000;
+    --input-border-color: #ccc;
+    --input-bg-color: #fff;
+    --input-text-color: #000;
+  }
+  
+  /* Dark Mode Variables */
+  .dark-mode {
+    --text-color: #fff;
+    --hr-color: #fff;
+    --input-border-color: #444;
+    --input-bg-color: #333;
+    --input-text-color: #fff;
+  }
+  

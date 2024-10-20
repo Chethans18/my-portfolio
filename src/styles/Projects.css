@@ -1,0 +1,21 @@
+/* Projects.css */
+.projects-container {
+    padding: 20px;
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: auto; /* Center the container */
+    text-align: center; /* Center align the text */
+  }
+  
+  .projects-container h1 {
+    font-size: 2.5rem; /* Size of the heading */
+    margin-bottom: 30px; /* Space below the heading */
+  }
+  
+  .project-card {
+    transition: transform 0.2s; /* Animation effect */
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  

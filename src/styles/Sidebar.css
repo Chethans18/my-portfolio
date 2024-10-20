@@ -1,0 +1,66 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; /* Full screen height */
+  width: 100vw; /* Full screen width */
+  background-color: #111; /* Dark background */
+  color: white;
+  transition: transform 0.3s ease;
+  transform: translateY(-100%); /* Initially hidden */
+  z-index: 999; /* Above all content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 2rem;
+}
+
+.sidebar.show {
+  transform: translateY(0); /* Show sidebar */
+}
+
+.btn-close {
+  background: none;
+  color: white; /* White cancel button */
+  border: none;
+  font-size: 3rem; /* Increased size */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.btn-close svg {
+  color: white !important; /* Force icon color to white */
+}
+
+
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Center nav links vertically */
+  padding-top: 100px; /* Adjust for logo positioning */
+}
+
+.nav-link {
+  color: white;
+  font-size: 1.5rem; /* Adjust size for better alignment */
+  margin: 20px 0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f39c12; /* Orange color on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.nav-link:visited {
+  color: gray; /* Visited link color */
+}

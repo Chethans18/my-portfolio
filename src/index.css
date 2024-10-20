@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  main {
+    padding: 1rem;
+    transition: margin-left 0.3s ease; /* Smooth transition for main content */
+  }
+  

@@ -1,0 +1,62 @@
+/* Global styles for the application */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode .btn {
+  background-color: #444;
+  color: #fff;
+}
+
+/* Light Mode Styles */
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+.light-mode .btn {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Main content styling */
+.main-content {
+  padding: 20px;
+}
+
+/* Scroll to Top Button Styling */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-to-top.visible {
+  display: block;
+  opacity: 1;
+}
+
+.scroll-to-top:hover {
+  background-color: #555;
+}
+
+/* Smooth transition for mode change */
+.dark-mode, .light-mode {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}

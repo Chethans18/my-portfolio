@@ -1,0 +1,53 @@
+.about-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .about-container h1,
+  .about-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .skills-container {
+    margin-top: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill span {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .progress {
+    height: 10px; /* Adjust the height as needed */
+    margin-top: 5px;
+  }
+  
+
+/* Define CSS variables for the line color */
+:root {
+  --line-color-light: #000; /* Line color for light mode */
+  --line-color-dark: #fff;  /* Line color for dark mode */
+}
+
+.custom-hr {
+  border: none;
+  height: 3px;
+  margin: 20px 0;
+  transition: background-color 0.3s ease;
+}
+
+  
